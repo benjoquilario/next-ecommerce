@@ -8,6 +8,7 @@ export interface LayoutProps {
 }
 
 const Layout = ({ title, children }: LayoutProps) => {
+  console.log(title);
   return (
     <>
       <Head>
